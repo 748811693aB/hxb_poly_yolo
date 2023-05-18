@@ -2,8 +2,10 @@ import cv2
 import numpy as np
 import os
 import time
+
+#为了避免报错自行更改为lite
 #import poly_yolo as yolo #or "import poly_yolo_lite as yolo" for the lite version
-import poly_yolo_lite as yolo
+import poly_yolo_lite as yolo 
 
 trained_model = yolo.YOLO(model_path='models/poly_yolo_lite.h5', iou=0.5, score=0.3)
 
