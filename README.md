@@ -3,7 +3,12 @@
 - conda环境：poly_yolo
 
 - github的原版poly yolo项目链接：https://github.com/BYLi-AI/poly-yolo
-- 训练：运行poly_yolo.py
+- 训练指令：
+  ```
+  cd /home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo
+  python poly_yolo.py
+  ```
+  - 如果报cuDNN相关错误，重启计算机再训练即可解决
   - 修改训练所需文件路径：
   ```
   def _main():
