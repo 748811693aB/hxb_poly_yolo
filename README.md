@@ -2,7 +2,9 @@
 
 - conda环境：poly_yolo
 
-- github的原版poly yolo项目链接：https://github.com/BYLi-AI/poly-yolo
+- github的原版poly_yolo项目链接,gitlab最全面，有现成的h5模型，强烈建议使用gitlab仓库
+  - gitlab:https://gitlab.com/irafm-ai/poly-yolo
+  - github：https://github.com/BYLi-AI/poly-yolo
 - 训练指令：
   ```
   cd /home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo
