@@ -36,21 +36,15 @@
 - 如果运行hxb_infer.py报错：cuDNN error 则重启计算机可解决
 - 检测数据集 、检测结果图片以及txt保存路径都在hxb_infer.py中更改
 
-# 训练
+- 05-22运行gitlab 官方pretrained模型
+  - 'models/poly_yolo.h5'
+  - 4号服务器保存路径：/home/whut-4/Desktop/HXB/gitlab_official_poly_YOLO/poly-yolo-master
+  - 检测效果：/home/whut-4/Desktop/HXB/gitlab_official_poly_YOLO/poly-yolo-master/poly_yolo/poly_kitti_result
+    ![72](https://github.com/748811693aB/hxb_poly_yolo/assets/102968155/f02eb56f-663f-48aa-8ffd-d6edae25ba2c)
+    ![73](https://github.com/748811693aB/hxb_poly_yolo/assets/102968155/c963e8b7-a1d1-4447-aecd-98278debe41b)
+    ![79](https://github.com/748811693aB/hxb_poly_yolo/assets/102968155/7fc9f63c-6834-4930-9fee-ec3d730a09a6)
+    ![10](https://github.com/748811693aB/hxb_poly_yolo/assets/102968155/ad0140c7-57c0-49ec-81ac-9027f89d127f)
 
-- poly_yolo.py:
-
-  - 修改路径：
-
-    ```
-    annotation_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/simulator_dataset/simulator-train.txt' #'train.txt'
-            validation_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/simulator_dataset/simulator-val.txt' #'val.txt'
-            log_dir = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo/models' #'models/'
-            classes_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo/yolo_classes.txt' #'yolo_classes.txt'
-            anchors_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo/yolo_anchors.txt' #'yolo_anchors.txt'
-    ```
-
-    
 
 
 
