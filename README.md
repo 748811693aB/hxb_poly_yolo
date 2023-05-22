@@ -3,6 +3,16 @@
 - conda环境：poly_yolo
 
 - github的原版poly yolo项目链接：https://github.com/BYLi-AI/poly-yolo
+- 训练：运行poly_yolo.py
+  - 修改训练所需文件路径：
+  ```
+  def _main():
+        annotation_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/simulator_dataset/simulator-train.txt' #'train.txt'
+        validation_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/simulator_dataset/simulator-val.txt' #'val.txt'
+        log_dir = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo/models' #'models/'
+        classes_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo/yolo_classes.txt' #'yolo_classes.txt'
+        anchors_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/poly_yolo/yolo_anchors.txt' #'yolo_anchors.txt'
+  ```
 
 - 运行检测的指令：
 
