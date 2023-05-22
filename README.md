@@ -11,6 +11,11 @@
   - 如果报cuDNN相关错误，重启计算机再训练即可解决
   - 修改训练所需文件路径：
   ```
+  def get_random_data(line, input_shape, random=True, max_boxes=80, hue_alter=20, sat_alter=30, val_alter=30, proc_img=True):
+    # load data
+    # the color conversion is later. it is not necessary to realize bgr->rgb->hsv->rgb
+    image = cv.imread('/home/whut-4/Desktop/HXB/official_poly_YOLO/poly-yolo/simulator_dataset/imgs/'+line[0])#HXB
+    
   def _main():
         annotation_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/simulator_dataset/simulator-train.txt' #'train.txt'
         validation_path = r'/home/whut-4/Desktop/HXB/05-04/poly-yolo-master/simulator_dataset/simulator-val.txt' #'val.txt'
