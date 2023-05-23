@@ -45,6 +45,9 @@
     ![79](https://github.com/748811693aB/hxb_poly_yolo/assets/102968155/7fc9f63c-6834-4930-9fee-ec3d730a09a6)
     ![10](https://github.com/748811693aB/hxb_poly_yolo/assets/102968155/ad0140c7-57c0-49ec-81ac-9027f89d127f)
 
+- 为了输出类似张畅new.txt格式 加入代码：poly-yolo-master/poly_yolo/hxb_infer_write-txt.py 
+
+
 
 
 
